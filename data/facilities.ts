@@ -1,0 +1,108 @@
+import { Facility } from '@/types'
+
+export const facilities: Facility[] = [
+  {
+    id: '1',
+    name: 'Smart Classrooms',
+    description: 'Technology-enabled learning spaces with interactive boards and multimedia facilities.',
+    image: '/images/facilities/classrooms.png',
+    features: [
+      'Interactive smart boards',
+      'Audio-visual systems',
+      'Climate controlled',
+      'Ergonomic seating',
+    ],
+    icon: 'Laptop',
+  },
+  {
+    id: '2',
+    name: 'Science Laboratories',
+    description: 'Fully equipped labs for Physics, Chemistry, and Biology with modern instruments.',
+    image: '/images/facilities/labs.png',
+    features: [
+      'Advanced equipment',
+      'Safety facilities',
+      'Microscopes & telescopes',
+      'Digital measurement tools',
+    ],
+    icon: 'FlaskConical',
+  },
+  {
+    id: '3',
+    name: 'Computer Lab',
+    description: 'State-of-the-art computing facility with coding and design software.',
+    image: '/images/facilities/computer-lab.png',
+    features: [
+      'Latest computers',
+      'High-speed internet',
+      'Coding software',
+      'Design tools',
+    ],
+    icon: 'Cpu',
+  },
+  {
+    id: '4',
+    name: 'Library',
+    description: 'Extensive collection of books, e-resources, and quiet study areas.',
+    image: '/images/facilities/library.png',
+    features: [
+      '25,000+ books',
+      'Digital resources',
+      'Reading zones',
+      'Study carrels',
+    ],
+    icon: 'BookOpen',
+  },
+  {
+    id: '5',
+    name: 'Sports Complex',
+    description: 'Comprehensive sports facilities for various indoor and outdoor games.',
+    image: '/images/facilities/sports.png',
+    features: [
+      'Football field',
+      'Basketball court',
+      'Swimming pool',
+      'Gymnastics equipment',
+    ],
+    icon: 'Activity',
+  },
+  {
+    id: '6',
+    name: 'Auditorium',
+    description: 'Multi-purpose hall for performances, conferences, and events.',
+    image: '/images/facilities/auditorium.png',
+    features: [
+      '500+ capacity',
+      'Acoustics system',
+      'Stage equipment',
+      'Green rooms',
+    ],
+    icon: 'Music',
+  },
+  {
+    id: '7',
+    name: 'Art Studio',
+    description: 'Creative space for visual arts, crafts, and design projects.',
+    image: '/images/facilities/art-studio.png',
+    features: [
+      'Art supplies',
+      'Exhibition space',
+      'Pottery wheel',
+      'Photography studio',
+    ],
+    icon: 'Palette',
+  },
+  {
+    id: '8',
+    name: 'Cafeteria',
+    description: 'Modern dining facility serving nutritious and hygienic meals.',
+    image: '/images/facilities/cafeteria.png',
+    features: [
+      'Hygiene certified',
+      'Varied menu',
+      'Seating area',
+      'Special dietary options',
+    ],
+    icon: 'UtensilsCrossed',
+  },
+]

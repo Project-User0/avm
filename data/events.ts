@@ -1,0 +1,73 @@
+import { Event } from '@/types'
+
+export const events: Event[] = [
+  {
+    id: '1',
+    title: 'Annual Science Expo',
+    description: 'Students showcase innovative science projects and experiments.',
+    date: '2024-03-15',
+    time: '09:00 AM',
+    location: 'School Auditorium',
+    image: '/images/events/science-expo.png',
+    category: 'academic',
+    registrationUrl: 'https://forms.example.com/science-expo',
+  },
+  {
+    id: '2',
+    title: 'Sports Day',
+    description: 'Inter-house athletics competition featuring track and field events.',
+    date: '2024-04-10',
+    time: '08:00 AM',
+    location: 'School Grounds',
+    image: '/images/events/sports-day.png',
+    category: 'sports',
+    registrationUrl: 'https://forms.example.com/sports-day',
+  },
+  {
+    id: '3',
+    title: 'Annual Cultural Fest',
+    description: 'Celebration of arts, music, dance, and cultural performances.',
+    date: '2024-05-20',
+    time: '05:00 PM',
+    location: 'School Auditorium',
+    image: '/images/events/cultural-fest.png',
+    category: 'cultural',
+    registrationUrl: 'https://forms.example.com/cultural-fest',
+  },
+  {
+    id: '4',
+    title: 'Coding Workshop',
+    description: 'Hands-on workshop on web development and AI basics.',
+    date: '2024-03-22',
+    time: '02:00 PM',
+    location: 'Computer Lab',
+    image: '/images/events/coding-workshop.png',
+    category: 'workshop',
+    registrationUrl: 'https://forms.example.com/coding-workshop',
+  },
+  {
+    id: '5',
+    title: 'Career Guidance Seminar',
+    description: 'Interactive session with professionals from various fields.',
+    date: '2024-04-05',
+    time: '03:00 PM',
+    location: 'Seminar Hall',
+    image: '/images/events/career-seminar.png',
+    category: 'academic',
+    registrationUrl: 'https://forms.example.com/career-seminar',
+  },
+  {
+    id: '6',
+    title: 'Model United Nations',
+    description: 'Debate competition simulating international diplomacy.',
+    date: '2024-05-10',
+    time: '10:00 AM',
+    location: 'School Auditorium',
+    image: '/images/events/mun.png',
+    category: 'academic',
+    registrationUrl: 'https://forms.example.com/mun',
+  },
+]
+
+export const upcomingEvents = events.slice(0, 3)
+export const pastEvents = events.slice(3)
